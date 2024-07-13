@@ -5,7 +5,7 @@ const commentSchema = new Schema({
     content : {
         type : String,
         required  : true
-    },
+    },  
     video : {
         type : Schema.Types.ObjectId,
         ref : "Video"
